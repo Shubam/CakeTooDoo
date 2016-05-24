@@ -2,6 +2,8 @@ CakeTooDoo
 =======
 A simple to do web application made using CakePHP 2.x framework.
 
+Following is more information about the framework used.
+
 CakePHP
 =======
 
