@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Shubam/CakeTooDoo.svg?branch=master)](https://travis-ci.org/Shubam/CakeTooDoo)
+
 CakeTooDoo
 =======
 A simple to do web application made using CakePHP 2.x framework.
