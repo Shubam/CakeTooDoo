@@ -14,7 +14,8 @@ before_script:
 
 sudo: required
 script:
-  - ./lib/Cake/Console/cake test app AllTests --stderr --coverage-clover clover.xml
+  - cd app
+  - ./Console/cake test app Model/Task
 
 matrix:
   include:
