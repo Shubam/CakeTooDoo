@@ -25,10 +25,10 @@ matrix:
   fast_finish: true
   
 after_success:
-  - pwd
-  - cd app/
-  - wget -O codecov.sh https://codecov.io/bash
-  - bash codecov.sh
-
+  # - pwd
+  # - cd app/
+  # - wget -O codecov.sh https://codecov.io/bash
+  # - bash codecov.sh
+  - bash <(curl -s https://codecov.io/bash)
 notifications:
   email: false
